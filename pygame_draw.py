@@ -47,7 +47,7 @@ class pyg_draw():
     def cen(self, a=2, b=2):
         return (self.scr[0]/a, self.scr[1]/b)
         
-    def circ(self, pos, rad, col="white", wid=0):
+    def circ(self, pos, rad=1, col="white", wid=0):
         if pos[0] != None:
             col = self.col(col)
             if wid > rad:
